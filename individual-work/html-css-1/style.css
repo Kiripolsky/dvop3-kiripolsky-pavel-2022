@@ -1,0 +1,25 @@
+body{font-family: sans-serif; background-color: black; color: grey; padding: 0; margin: 0;}
+.background{position: relative; left: 20%; width: 60%; height: fit-content; background: linear-gradient(rgb(30, 30, 30) 0%, rgb(30, 30, 30) 45px, white 45px, white 100%);}
+
+h1{color: black; font-weight: normal; display: inline}
+h2{font-weight: normal;}
+a{text-decoration: none; color: grey; padding-left: 10px;}
+a:hover{background-color: black; padding: 8px;}
+hr{width: 200%;}
+img{width: 250px; height: 250px;}
+
+.flexbox{display: flex; max-width: 600px; margin: auto;}
+.levá{flex: 1; padding-top: 7px;}
+.pravá{flex: 1; padding-top: 16px; text-align: right;}
+
+.inline{display: inline;}
+.nadpis{margin-top: 40px;}
+
+.flex{display: flex; max-width: 600px; margin: auto;}
+.leveko{flex: 1; padding-top: 7px;}
+.praveko{flex: 1; padding-top: 7px; text-align: left; padding-left: 100px;}
+
+.text{max-width: 250px; padding-bottom: 50px; color: black;}
+.title{color: blue;}
+
+.copy{color: black; text-align: center;}
