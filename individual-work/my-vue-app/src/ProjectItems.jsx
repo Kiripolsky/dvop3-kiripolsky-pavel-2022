@@ -7,73 +7,74 @@ function ProjectItems() {
 
     return (
         <div className="body">
-            <div className="background">
-                <div className="flexbox">
-                    <div className="levá">
-                        <h2 className="inline">🔥Logo</h2>
+            <div class="background">
+                <div class="flexbox">
+                    <div class="levá">
+                        <h2 class="inline">🔥Logo</h2>
                         <a href="">About</a>
                         <a href="">Services</a>
                         <a href="">Portfolio</a>
 
-                        <div className="nadpis">
+                        <div class="nadpis">
                             <h1>Portfolio</h1>
-                            <h2 className="inline">Recent Work</h2>
+                            <h2 class="inline">Recent Work</h2>
                             <hr />
                         </div>
                     </div>
-                    <div className="pravá">
+                    <div class="pravá">
                         <a href="">Contact</a>
                     </div>
                 </div>
 
-                <div className="flex">
-                    <div className="leveko">
-                        <img src="" alt="kříž" />
-                        <div className="text">
-                            <h2 className="title"> Project Title</h2>
+                <div class="flex">
+                    <div class="leveko">
+                        <img src="1.jpg" alt="kříž" />
+                        <div class="text">
+                            <h2 class="title"> Project Title</h2>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Integer
                             vulputate sem a nibh.
                         </div>
 
-                        <img src="./1.jpg" alt="pikachu" />
-                        <div className="text">
-                            <h2 className="title"> Project Title</h2>
+                        <img src="1.jpg" alt="pikachu" />
+                        <div class="text">
+                            <h2 class="title"> Project Title</h2>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Integer
                             vulputate sem a nibh.
                         </div>
 
-                        <img src="" alt="controller" />
-                        <div className="text">
-                            <h2 className="title"> Project Title</h2>
+                        <img src="1.jpg" alt="controller" />
+                        <div class="text">
+                            <h2 class="title"> Project Title</h2>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Integer
                             vulputate sem a nibh.
                         </div>
                     </div>
 
-                    <div className="praveko">
-                        <img src="" alt="mašinka" />
-                        <div className="text">
-                            <h2 className="title"> Project Title</h2>
+                    <div class="praveko">
+                        <img src="1.jpg" alt="mašinka" />
+                        <div class="text">
+                            <h2 class="title"> Project Title</h2>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Integer
                             vulputate sem a nibh.
                         </div>
 
-                        <img src="" alt="sova" />
-                        <div className="text">
-                            <h2 className="title"> Project Title</h2>
+                        <img src="1.jpg" alt="sova" />
+                        <div class="text">
+                            <h2 class="title"> Project Title</h2>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Integer
                             vulputate sem a nibh.
                         </div>
 
-                        <img src="" alt="mouka" />
-                        <div className="text">
-                            <h2 className="title"> Project Title</h2>
+                        <img src="1.jpg" alt="mouka" />
+                        <div class="text">
+                            <h2 class="title"> Project Title</h2>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam bibendum elit eget erat. Integer
                             vulputate sem a nibh.
                         </div>
                     </div>
                 </div>
-                <div className="copy">Copyright © Example.com 2022</div>
+
+                <div class="copy">Copyright © Example.com 2022</div>
             </div>
         </div>
     )
