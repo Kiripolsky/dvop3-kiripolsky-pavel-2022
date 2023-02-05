@@ -1,6 +1,16 @@
 import { useState, useEffect } from "react";
 import reactLogo from "./assets/react.svg";
 
+const TodoItem = ({ todo }) => {
+  return (
+    <div className="bg-white rounded-lg shadow-sm text-center">
+      <h3>{todo.title}</h3>
+      <p>User ID: {todo.userId}</p>
+      <p>ID: {todo.id}</p>
+    </div>
+  );
+};
+
 function App() {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
@@ -19,22 +29,18 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <h1>React App</h1>
+    <div className="bg-gray-100">
+      <h1 className="text-center text-3xl font-bold py-5">Todo List</h1>
       {loading ? (
-        <p>Loading...</p>
+        <p className="text-center text-3xl font-bold py-5">Načítání...</p>
       ) : (
-        <div>
+        <div className="grid gap-6 grid-cols-3">
           {data ? (
-            <div>
-              {data.map((item) => (
-                <div key={item.id}>
-                  <p>{item.title}</p>
-                </div>
-              ))}
-            </div>
+            data.map((todo) => (
+              <TodoItem todo={todo} />
+            ))
           ) : (
-            <p>No data</p>
+            <p className="text-center text-3xl font-bold py-5">Data nenalezena</p>
           )}
         </div>
       )}
