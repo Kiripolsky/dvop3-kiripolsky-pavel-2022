@@ -5,7 +5,7 @@ defineProps({
   msg: String,
 })
 
-const count = ref(0)
+const count = ref(1)
 </script>
 
 <template>
@@ -15,16 +15,10 @@ const count = ref(0)
     <p>
       Omlouvám se, ale zapomněl jsem na úkol.
     </p> <br>
-    <button type="button" @click="count++">Kolikrát {{ count + 1 }}</button>
-  </div>
+    <button type="button" @click="count++">Kolikrát {{ count }}</button>
 
-  <div class="image">
-    <img src="../assets/crying.jpg"/>
+    <div class="image">
+      <img src="../assets/crying.jpg" />
+    </div>
   </div>
 </template>
-
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
